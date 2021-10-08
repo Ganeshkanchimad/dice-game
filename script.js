@@ -36,8 +36,12 @@ if (randomNumber2 === 0){
 
 if(randomNumber < randomNumber2){
     subHead.innerText = "Player 2 Won"
+    imageTwo.style.backgroundColor = "Green"
+    imageOne.style.backgroundColor = "Red"
   } else if (randomNumber === randomNumber2){
     subHead.innerText = "It's a Tie"
   } else {
     subHead.innerText = "Player 1 Won"
+    imageOne.style.backgroundColor = "Green"
+    imageTwo.style.backgroundColor = "Red"
   }
