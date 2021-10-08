@@ -1,8 +1,8 @@
 var imageOne = document.querySelector("#img-1");
 var imageTwo = document.querySelector("#img-2");
 var subHead = document.querySelector("#sub-head");
-var randomNumber1 = (Math.floor(Math.random() * 6) + 1);
 
+var randomNumber1 = (Math.floor(Math.random() * 6) + 1);
 imageOne.setAttribute("src" , "/dices/dice" + randomNumber1 + ".png");
 
 var randomNumber2 = (Math.floor(Math.random() * 6) + 1);
